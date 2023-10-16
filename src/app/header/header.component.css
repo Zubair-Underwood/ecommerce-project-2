@@ -1,0 +1,51 @@
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+
+    color: blueviolet;
+    margin: 0;
+    font-size: 40px;
+}
+
+.navbar ul li {
+
+    display: inline-block;
+    list-style: none;
+    margin: 5px 10px;
+}
+
+.navbar ul li a {
+
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.navbar .nav-search {
+
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar .nav-search input {
+
+    flex: 1;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 35px;
+    border-right: 0px;
+}
+
+.navbar .nav-search button {
+
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 39px;
+    border-left: 0px;
+}
